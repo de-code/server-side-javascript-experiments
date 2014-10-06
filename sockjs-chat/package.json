@@ -1,0 +1,14 @@
+{
+  "name": "sockjs-chat-example",
+  "version": "0.0.0",
+  "description": "SockJS Example",
+  "main": "express-rest-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Ecer",
+  "license": "MIT",
+  "dependencies": {
+    "sockjs": "^0.3.9"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>SockJS chat</title>
+  </head>
+  <body>
+    <textarea id="chat-content" style="width:500px; height:300px"></textarea><br/>
+    <form action="#" onsubmit="sendMessage(); return false;">
+      <input type="text" id="username" placeholder="Choose username"/>
+      <input type="text" id="text" placeholder="Enter chat message"/>
+      <input type="submit" value="Send"/>
+    </form>
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://cdn.sockjs.org/sockjs-0.3.min.js"></script>
+    <script src="sockjs-chat-client.js" ></script>
+  </body>
+</html>
